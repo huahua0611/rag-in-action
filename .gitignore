@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.db
+*.sqlite
+*.pth
 .Python
 build/
 develop-eggs/
@@ -20,13 +23,15 @@ wheels/
 .installed.cfg
 *.egg
 
+*archive/*
+
 # Virtual Environment
 venv/
 env/
 ENV/
 .env
 .venv
-
+**/venv-rag-langchain*/
 # IDE
 .idea/
 .vscode/
@@ -67,4 +72,7 @@ Thumbs.db
 data/
 **/data
 
-
+**/99_其它*/
+**/RAG_LangChain*/
+**/RAG_LlamaIndex*/
+**/04-向量存储-VectorDB/Milvus/volumes/*
